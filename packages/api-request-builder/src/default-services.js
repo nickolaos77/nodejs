@@ -81,6 +81,11 @@ export default {
     endpoint: '/product-discounts',
     features: [features.query, features.queryOne, features.queryExpand],
   },
+    productDetailsVariantSettings: {
+    type: 'product-details-variant-settings',
+    endpoint: '/product-details-variant-settings',
+    features: [query, queryOne, queryExpand]
+  },
   productProjections: {
     type: 'product-projections',
     endpoint: '/product-projections',
